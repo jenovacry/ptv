@@ -1,0 +1,9 @@
+{
+  "name": "CustomImage",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+  },
+  "extensions": [ "esbenp.prettier-vscode" ],
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && echo 'export PATH=\"/root/.bun/bin:$PATH\"' >> ~/.bashrc && echo 'alias nun=\"bun\"' >> ~/.bashrc && echo 'alias nunx=\"bunx\"' >> ~/.bashrc",
+  "remoteUser": "root"
+}
